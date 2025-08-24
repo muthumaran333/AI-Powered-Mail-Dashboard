@@ -1,29 +1,19 @@
-# Google API (for Gmail)
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
+# AI & Processing
+langchain-google-genai    # Gemini integration
+google-generativeai       # Google AI SDK
+python-docx              # Word document processing
+openpyxl                 # Excel file handling
+PyPDF2                   # PDF processing
+python-pptx              # PowerPoint processing
+Pillow + pytesseract     # OCR capabilities
 
-# AI & NLP - HuggingFace + transformers
-transformers
-huggingface_hub
-torch
-python-dotenv
+# Web & API
+streamlit                # Dashboard framework
+google-api-python-client # Gmail API client
+google-auth-oauthlib     # OAuth authentication
+requests                 # HTTP operations
 
-# Data handling
-pandas
-numpy
-
-# Document processing
-pdfplumber
-python-docx
-openpyxl
-pytesseract
-Pillow
-
-# Web UI
-streamlit
-
-# Logging
-loguru
-
-rich
+# Data & Storage
+sqlite3                  # Database operations
+pandas                   # Data manipulation
+numpy                    # Numerical operations
