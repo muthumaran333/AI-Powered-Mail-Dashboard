@@ -1,0 +1,29 @@
+# Google API (for Gmail)
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# AI & NLP - HuggingFace + transformers
+transformers
+huggingface_hub
+torch
+python-dotenv
+
+# Data handling
+pandas
+numpy
+
+# Document processing
+pdfplumber
+python-docx
+openpyxl
+pytesseract
+Pillow
+
+# Web UI
+streamlit
+
+# Logging
+loguru
+
+rich
