@@ -5,7 +5,7 @@ python-docx              # Word document processing
 openpyxl                 # Excel file handling
 PyPDF2                   # PDF processing
 python-pptx              # PowerPoint processing
-Pillow + pytesseract     # OCR capabilities
+Pillow                   
 
 # Web & API
 streamlit                # Dashboard framework
