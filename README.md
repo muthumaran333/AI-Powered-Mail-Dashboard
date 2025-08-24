@@ -21,8 +21,9 @@ The AI-Powered Mail Dashboard is a cutting-edge email management system that har
 - **🎯 Smart Automation**: AI-powered draft replies and action item extraction
 - **🔍 Advanced Search & Filtering**: Sophisticated email discovery and management tools
 
-![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/email_list_1.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
+
+![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/email_list_1.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/FlowChart-MailMind.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/full_email_part-1.png)
