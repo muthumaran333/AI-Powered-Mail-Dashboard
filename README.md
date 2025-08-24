@@ -21,8 +21,7 @@ The AI-Powered Mail Dashboard is a cutting-edge email management system that har
 - **🎯 Smart Automation**: AI-powered draft replies and action item extraction
 - **🔍 Advanced Search & Filtering**: Sophisticated email discovery and management tools
 
-![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
-
+### 📸 Screenshot Descriptions Overview:
 
 ### 🎯 AI Analysis Dashboard
 
@@ -30,15 +29,75 @@ Highlights the core AI capabilities (Gemini 2.5 Flash integration)
 Emphasizes interactive elements and color-coded priority system
 Shows the intelligent insights and actionable intelligence features
 
+![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
+
+
+### 📧 Email List Management
+
+Focuses on the clean, organized interface design
+Mentions advanced filtering and batch operations
+Highlights smart categorization and priority indicators
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/email_list_1.png)
+
+
+### 🏗️ System Architecture Flow
+
+Explains the technical workflow visualization
+Shows the complete data processing pipeline
+Demonstrates component interactions and system design
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/FlowChart-MailMind.png)
+
+
+### 📄 Email Detail Views (Part 1 & 2)
+
+Part 1: Emphasizes comprehensive email content display and metadata
+Part 2: Focuses on AI analysis results, sentiment, and action items
+Shows the expandable, modal-based design approach
+
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/full_email_part-1.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/full_email_part-2.png)
+
+
+### 🤖 AI Reply Generation
+
+Highlights the intelligent, context-aware reply system
+Mentions multiple reply types and customizable settings
+Emphasizes the AI-powered automation capabilities
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/genrate_reply.png)
+
+
+
+### ⚡ High Priority Alerts
+
+Focuses on urgent message identification and management
+Highlights the color-coded alert system
+Emphasizes immediate attention and quick action features
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/high_priority.png)
+
+
+### 📬 Reply Management
+
+Shows advanced draft management capabilities
+Highlights template selection and AI suggestions
+Emphasizes the comprehensive reply workflow
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/Reply-mail.png)
 
 
+### Summary 
+
+- Highlight unique features of that interface component
+- Use technical terminology that demonstrates sophistication
+- Emphasize AI capabilities throughout the system
+- Show user experience benefits and practical value
+- Connect to the overall system architecture and workflow
+
+The screenshots section now serves as a visual tour that perfectly complements the technical documentation, giving potential users a clear understanding of what they can expect from your dashboard interface.
 
 ## 🏗️ Architecture
 
