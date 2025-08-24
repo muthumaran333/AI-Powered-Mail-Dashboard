@@ -23,8 +23,14 @@ The AI-Powered Mail Dashboard is a cutting-edge email management system that har
 
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
 
+
+### 🎯 AI Analysis Dashboard
+
+Highlights the core AI capabilities (Gemini 2.5 Flash integration)
+Emphasizes interactive elements and color-coded priority system
+Shows the intelligent insights and actionable intelligence features
+
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/email_list_1.png)
-![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/analysis.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/FlowChart-MailMind.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/full_email_part-1.png)
 ![Dashboard](https://github.com/muthumaran333/AI-Powered-Mail-Dashboard/blob/main/image/full_email_part-2.png)
