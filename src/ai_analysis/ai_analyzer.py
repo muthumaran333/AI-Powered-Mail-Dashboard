@@ -14,15 +14,15 @@ from langchain_core.callbacks import BaseCallbackHandler
 import logging
 
 from src.storage.sqlite_manager import SQLiteManager
-
+from langsmith import traceable
 
 from utils.logger import get_logger
 
 logger = get_logger(__name__)
 
 
-# Configure LangSmith (optional)
-os.environ["LANGCHAIN_TRACING_V2"] = "false"  # Disable by default to avoid API key issues
+
+os.environ["LANGCHAIN_TRACING_V2"] = "true"  
 
 @dataclass
 class EmailAnalysis:
@@ -58,7 +58,7 @@ class AIEmailAnalyzer:
                 timeout=30,
                 max_retries=3,
             )
-            logger.info("✅ Gemini 2.0 Flash model initialized successfully")
+            logger.info("✅ Gemini 2.5 Flash model initialized successfully")
         except Exception as e:
             logger.error(f"❌ Failed to initialize Gemini model: {e}")
             raise
@@ -210,7 +210,8 @@ Email Content:
         except Exception as e:
             logger.error(f"❌ Failed to clean HTML content: {e}")
             return html_content
-    
+        
+    @traceable(name="analyze_single_email")
     def _run_ai_analysis(self, email_content: str) -> Dict:
         """Run comprehensive AI analysis on email content"""
         
@@ -277,7 +278,7 @@ Provide analysis in this exact JSON format:
             return self._get_fallback_analysis()
             
         except Exception as e:
-            logger.error(f"❌ AI analysis failed: {e}")
+            logger.error(f" AI analysis failed: {e}")
             return self._get_fallback_analysis()
     
     def _validate_analysis_results(self, results: Dict) -> Dict:

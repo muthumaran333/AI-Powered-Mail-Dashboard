@@ -14,6 +14,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 
 from src.auth.gmail_auth import authenticate_gmail
 from src.storage.sqlite_manager import SQLiteManager
+from langsmith import traceable
 
 from utils.logger import get_logger
 
@@ -85,6 +86,7 @@ class AIEmailReply:
         except Exception as e:
             logger.error(f"❌ Failed to create reply tables: {e}")
     
+    @traceable(name="generate_ai_reply")
     def generate_ai_reply(self, email_data: Dict, reply_type: str = "standard") -> Optional[str]:
         """Generate AI reply for an email"""
         try:

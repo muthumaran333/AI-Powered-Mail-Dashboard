@@ -15,6 +15,8 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_core.output_parsers import JsonOutputParser, PydanticOutputParser
 from langchain.schema import BaseOutputParser
 import logging
+from langsmith import traceable
+
 
 from src.storage.sqlite_manager import SQLiteManager
 from utils.logger import get_logger
@@ -290,6 +292,10 @@ class AIEmailSummarizer:
         except Exception as e:
             logger.error(f"❌ Failed to create summary tables: {e}")
     
+
+
+    @traceable(name="summarize_single_email")
+
     def summarize_email(self, email_data: Dict, summary_type: str = "detailed") -> Optional[EmailSummary]:
         """Summarize a single email with specified type"""
         start_time = time.time()

@@ -533,7 +533,7 @@ class EmailDashboard:
             
             with col_ai3:
                 action_required = analysis.get('action_required', False)
-                st.metric("Action Required", "✅ Yes" if action_required else "❌ No")
+                st.metric("Action Required", " Yes" if action_required else "No")
                 
             with col_ai4:
                 processing_time = analysis.get('processing_time_ms', 0)
